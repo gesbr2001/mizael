@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+            margin: 0px;|
+            padding: 0px;
+            font-family: "Montserrat", Helvetica, sans-serif;
+            background-color: #0C0C0C;
+            color: #fff;
+            text-align: center;
+        }
+
+        header {
+            padding: 10px;
+        }
+        .logo{
+            width: 281px;
+            height: 150px;
+        }
+
+        /*HEADER*/
+
+        .frase-efeito{
+            font-size: 20px;
+        }    
+        .efeito-frase{
+            color: red;
+        }
+
+        .frase-dois{
+            font-size: 15px;
+            font-weight: 400;
+    }
+        
+        .pontos {
+            display: inline-block;
+            text-align: left; 
+            padding-left: 200px;
+            padding-right: 100px; 
+            
+            font-size: 18px;
+            
+        }
+
+        .pontos img{
+            width: 30px;
+            height: 30px;
+        }
+
+        /*BOTOES*/
+
+        .butao-um{
+            align-items: center;
+        }
+        .butao-inscreva{
+            padding-left: 80px;
+            padding-right: 80px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+            border: 0px;
+            border-radius: 15px;
+            
+        }
+        .butao-inscreva a{
+            text-decoration: none;
+            color: #fff;
+            font-weight: 600;
+            font-family: "Montserrat";
+            font-size: 20px;
+        } 
+        
+        .butao-inscreva{
+            background: linear-gradient(45deg, #0686ff, #ff0505);
+            background-size: 400% 400%;
+            animation: gradient 5s ease infinite;
+        }
+        @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .img-pagamento{
+            align-items: center;
+            padding: 1px;
+        }
+        .img-pag{
+            height: 50px;
+        }
+
+        .img-acesso{
+            align-items: center;
+            
+        }
+        .img-acesso-dias{
+            height: 30px;
+        }
+
+
+
+        /*CAIXAS*/
+
+        .frase-efeito-dois{
+            align-items: center;
+            padding-top: 10px;
+            margin: 80px;
+        }
+        .frase-doiss{
+            align-items: center;
+            font-size: 25px;
+            font-family: "Montserrat";
+            font-weight: 700;
+        }
+        .frase-doiss span{
+            color: #ff0505;
+        }
+
+
+
+
+        .grid {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 20px auto;
+            width: 80%;
+        }
+
+        .grid-item {
+            width: 150px;
+            margin: 10px;
+            background-color: #2c3e50;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .grid-item i {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+
+
+
+        .mone{
+            padding: 15px;
+        }
+    
+        .monetizar{
+            text-decoration: none;
+            color: #fff;
+
+            font-size: 25px;
+            font-family: "Montserrat";
+            font-weight: 600;
+
+            
+        }
+        .monetizar{
+            border-radius: 20px;
+            padding: 10px 50px 10px 50px;
+
+            background: linear-gradient(45deg, #0686ff, #ff0505);
+            background-size: 400% 400%;
+            animation: gradient 5s ease infinite;
+        }
+        @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .duvida-area{
+            width: 100%; /* Largura do retângulo */
+            height: 300px; /* Altura do retângulo */
+            background-color: #007BFF; /* Cor de fundo do retângulo */
+            
+            border-top-left-radius: 80px; /* Arredondamento das bordas (opcional) */
+        }
+
+
+
+
+
+
+        .footer{
+            background-color: #005CE7;
+            
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            bottom: 0;
+        }
+        .frase-footer{
+            color: white;
+            font-size: 15px;
+            font-family: "Montserrat";
+            font-weight: 700;
+        }
